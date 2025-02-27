@@ -1,0 +1,18 @@
+<div class="search-container">
+  <!-- Input field bound to searchTerm -->
+  <input
+    type="text"
+    [(ngModel)]="searchTerm"
+    placeholder="Enter a word..."
+    class="search-input"
+  />
+
+  <!-- Search button triggers searchWord() -->
+  <button (click)="searchWord()" class="search-button">Search</button>
+
+  <!-- ✅ This ensures WordDisplayComponent is used in the template -->
+  <app-word-display
+    [word]="searchInput"
+    [definition]="definition"
+  ></app-word-display>
+</div>

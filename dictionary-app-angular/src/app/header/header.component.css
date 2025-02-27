@@ -1,0 +1,18 @@
+h1 {
+  font-size: 5rem;
+  color: #99ff33;
+  font-style: italic;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4rem; /* Adjust font size for readability */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem; /* Adjust font size for readability */
+  }
+}
