@@ -1,0 +1,4 @@
+[build]
+  base = ""  # Keep empty if package.json is in root, or set to "frontend/" if needed
+  command = "npm install && npm run build"
+  publish = "dist/dictionary-app-angular"  # Adjust for your framework (React: "dist" or "build")
