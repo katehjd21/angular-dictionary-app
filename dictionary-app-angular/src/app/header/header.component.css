@@ -7,12 +7,12 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 4rem; /* Adjust font size for readability */
+    font-size: 4rem;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 3rem; /* Adjust font size for readability */
+    font-size: 3rem;
   }
 }

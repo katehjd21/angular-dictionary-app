@@ -64,13 +64,3 @@
   margin: 10px auto;
   text-align: left;
 }
-
-@media (max-width: 768px) {
-  .search-container {
-  }
-}
-
-@media (max-width: 480px) {
-  .search-container {
-  }
-}

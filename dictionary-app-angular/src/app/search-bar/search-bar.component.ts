@@ -13,9 +13,9 @@ import { WordDisplayComponent } from '../word-display/word-display.component';
   styleUrl: './search-bar.component.css',
 })
 export class SearchBarComponent implements OnInit {
-  searchTerm: string = ''; // Holds the user’s search input
-  dictionary: DictionaryEntry = {}; // Stores the dictionary data
-  definition: string | null = null; // Stores the search result (definition)
+  searchTerm: string = '';
+  dictionary: DictionaryEntry = {};
+  definition: string | null = null;
   searchInput: string = '';
 
   constructor(private dictionaryService: DictionaryService) {}

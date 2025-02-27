@@ -1,33 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap");
 
 body {
   font-family: "Playwrite IT Moderna", serif;
   background-color: #3399ff;
   display: flex;
-  flex-direction: column; /* Adjusts stacking for small screens */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 90vh;
   margin: 0;
-  padding: 10px; /* Prevents content from touching the edges */
-  box-sizing: border-box; /* Ensures padding is included in width calculations */
-  overflow: auto; /* Allows scrolling if content overflows */
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
 }
 
 @media (max-width: 768px) {
   body {
-    font-size: 16px; /* Adjust font size for readability */
-    height: auto; /* Allow height to grow instead of forcing 100vh */
-    padding: 20px; /* More padding for smaller screens */
+    font-size: 16px;
+    height: auto;
+    padding: 20px;
   }
 }
 
 @media (max-width: 480px) {
   body {
     font-size: 14px;
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

@@ -9,6 +9,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './word-display.component.css',
 })
 export class WordDisplayComponent {
-  @Input() word: string = ''; // Receives the word
-  @Input() definition: string | null = null; // Receives the definition
+  @Input() word: string = '';
+  @Input() definition: string | null = null;
 }

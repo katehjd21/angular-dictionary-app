@@ -1,59 +1,55 @@
-# DictionaryAppAngular
+# 📖 Angular Dictionary App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+This is a simple dictionary app built using **Angular**, a framework I have recently taught myself. The app allows users to search for a word, and if the word exists in the dictionary, it will display its definition. If the word is not found, a "Word not found" message will be shown.
 
-## Development server
+## 🚀 Features
 
-To start a local development server, run:
+- 🔍 **Search Functionality**: Enter a word in the search bar and get its definition.
+- 📖 **Predefined Dictionary**: The app retrieves definitions from a JSON file stored in the root of the app.
+- 🎨 **Styled with CSS**: A clean and minimal UI for a smooth user experience.
+- ⚡ **Built with TypeScript**: Ensuring a strongly typed and scalable application.
 
-```bash
-ng serve
-```
+## 🛠️ Technologies Used
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular** (Self-taught framework)
+- **TypeScript**
+- **CSS** for styling
+- **JSON** for word definitions
 
-## Code scaffolding
+## 👩🏻‍💻 How to Run the App
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Clone the repository:
 
-```bash
-ng generate component component-name
-```
+   ```bash
+   git clone https://github.com/yourusername/dictionary-app.git
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. Navigate to the project folder:
 
-```bash
-ng generate --help
-```
+   ```bash
+   cd dictionary-app
+   ```
 
-## Building
+3. Install dependencies:
 
-To build the project run:
+   ```bash
+   npm install
+   ```
 
-```bash
-ng build
-```
+4. Start the development server:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+   ```bash
+   npm start
+   ```
 
-## Running unit tests
+5. Open your browser (preferably Google Chrome) and go to:
+   ```bash
+   http://localhost:4200
+   ```
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📌 Future Improvements
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📚 Expand the dictionary with more words.<br>
+🔊 Add pronunciation audio for words.<br>
+🌍 Fetch definitions from an external API for real-time updates.<br>
+🎨 Improve UI/UX with additional styling and animations.
